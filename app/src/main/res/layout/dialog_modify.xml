@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:backgroundTint="#fff"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:padding="10dp"
+              android:background="@drawable/bg_sex_dialog"
+              android:orientation="vertical"
+              android:backgroundTintMode="screen"
+              android:layout_margin="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_title"
+        android:gravity="center"
+        tools:text="修改学生信息"
+        android:textSize="@dimen/text_small"
+        android:padding="5dp"
+        android:textColor="#333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="2dp"
+        android:padding="5dp"
+        android:id="@+id/et_number"
+        android:inputType="text"
+        android:background="@drawable/bg_search"
+        android:layout_width="match_parent"
+        tools:hint="请输入学生学号"
+        android:textColor="#666"
+        android:textSize="@dimen/text_xxsmall"
+        android:layout_height="40dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        tools:hint="请输入学生姓名"
+        android:textColor="#666"
+        android:textSize="@dimen/text_xxsmall"
+        android:id="@+id/et_name"
+        android:inputType="text"
+        android:background="@drawable/bg_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_ok"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:text="确定"
+            android:layout_marginRight="5dp"
+            android:textSize="@dimen/text_xsmall"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:text="取消"
+            android:textSize="@dimen/text_xsmall"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

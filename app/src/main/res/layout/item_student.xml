@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_student"
+        tools:text="141544228：李观印"
+        android:textSize="@dimen/text_xsmall"
+        android:textColor="#333"
+        android:gravity="center|left"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_marginRight="2dp"
+        android:textSize="@dimen/text_xxsmall"
+        android:textColor="#fff"
+        android:text="修改"
+        android:background="@drawable/bg_update"
+        android:layout_width="60dp"
+        android:layout_height="30dp"/>
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_marginRight="2dp"
+        android:textSize="@dimen/text_xxsmall"
+        android:textColor="#fff"
+        android:text="删除"
+        android:background="@drawable/bg_delete"
+        android:layout_width="60dp"
+        android:layout_height="30dp"/>
+
+</LinearLayout>

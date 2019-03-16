@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="WELCOME"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+        <View
+        android:background="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"/>
+        <View
+            android:background="@color/colorPrimary"
+            android:layout_alignParentLeft="true"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+            <View
+                android:background="@color/colorPrimary"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="学生管理"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+</LinearLayout>
